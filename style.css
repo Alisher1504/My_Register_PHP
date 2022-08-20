@@ -1,0 +1,114 @@
+*{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eee;
+    padding-bottom: 80px;
+}
+
+.container .content{
+    width: 700px;
+    text-align: center;
+}
+
+.container .content h3{
+    font-size: 5vw;
+    text-transform: uppercase;
+}
+
+.container .content p {
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.container .content p span{
+    color: crimson;
+}
+
+.container .content .logout{
+    display: inline-block;
+    margin-top: 10px;
+    background: #000;
+    color: #fff;
+    padding: 10px 35px;
+    font-size: 20px;
+}
+
+.container .content .logout:hover{
+    background-color: crimson;
+}
+
+.form-container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eee;
+    padding-bottom: 80px;
+}
+
+.form-container form{
+    text-align: center;
+    width: 500px;
+    background: #fff;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.form-container form h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.form-container form .box {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 20px;
+    border: 2px solid #000;
+    margin: 10px 0px;
+}
+
+.form-container form .form_btn{
+    display: block;
+    margin-top: 10px;
+    background: #000;
+    color: #fff;
+    padding: 15px 35px;
+    font-size: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.form-container form .form_btn:hover{
+    background: crimson;
+}
+
+.form-container form p{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.form-container form p a {
+    color: crimson;
+}
+
+.form-container form .error-msg {
+    display: block;
+    margin: 10px 0px;
+    background: crimson;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+}
