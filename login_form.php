@@ -14,7 +14,7 @@ if(isset($_POST['submit'])){
 
     if(mysqli_num_rows($result) > 0){
         $_SESSION['usermail'] = $email;
-        header('location:header.php');
+        header('location:add_new.php');
     }
     else{
         $error[] = 'incorrect email or password';
